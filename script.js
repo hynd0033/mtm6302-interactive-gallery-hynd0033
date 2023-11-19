@@ -9,30 +9,30 @@
 
 // Images Array
 
-// const dogs = [
-//     'images/lilly1.jpg',
-//     'images/lilly2.jpg',
-//     'images/lilly3.jpg',
-//     'images/lilly4.jpg',
-//     'images/lilly5.jpg',
-//     'images/lilly6.jpg',
-//     'images/stella1.jpg',
-//     'images/stella2.jpg',
-//     'images/stella3.jpg',
-//     'images/stella4.jpg',
-//     'images/stella5.jpg',
-//     'images/stella6.jpg'
-// ];
+const dogs = [
+    'images/lilly1.jpg',
+    'images/lilly2.jpg',
+    'images/lilly3.jpg',
+    'images/lilly4.jpg',
+    'images/lilly5.jpg',
+    'images/lilly6.jpg',
+    'images/stella1.jpg',
+    'images/stella2.jpg',
+    'images/stella3.jpg',
+    'images/stella4.jpg',
+    'images/stella5.jpg',
+    'images/stella6.jpg'
+];
 
-// // Dynamically adds images to page
+// Dynamically adds images to page
 
-// const addDog = document.getElementById('dogContainer')
+const addDog = document.getElementById('dogContainer')
 
-// for ( let i = 0; i<=11; i++) {
-//     const img = document.createElement('img');
-//     img.src = dogs[i];
-//     addDog.appendChild(img);
-// }
+for ( let i = 0; i<=11; i++) {
+    const img = document.createElement('img');
+    img.src = dogs[i];
+    addDog.appendChild(img);
+}
 
 // How to add data-source="Image by Dimitri Houtteman from Pixabay" to image from javascript? or in html?
 
@@ -43,8 +43,8 @@
 
 // This method adds image element but can't grab the proper one to display
 
-// for (const dog of dogs) {
-//     const img = document.createElement('img');
-//     img.src = dogs[dog];
-//     addDog.appendChild(img);
-// }
+for (const dog of dogs) {
+    const img = document.createElement('img');
+    img.src = dogs[dog];
+    addDog.appendChild(img);
+}
